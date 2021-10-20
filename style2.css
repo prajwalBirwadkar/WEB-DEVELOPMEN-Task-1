@@ -1,0 +1,229 @@
+p,a,h1,h2,h3,h4 {
+	margin: 0;
+	padding: 0;
+}
+
+.section-team {
+	font-family: "Poppins", sans-serif;
+	padding: 80px 0;
+}
+
+.section-team .header-section {
+	margin-bottom: 50px;
+}
+
+.section-team .header-section .small-title {
+    margin-bottom: 25px;
+	font-size: 16px;
+    font-weight: 500;
+    color: #3e64ff;
+}
+
+.section-team .header-section .title {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.section-team .single-person {
+	margin-top: 30px;
+	padding: 30px;
+	background-color: #f6f9ff;
+	border-radius: 5px;
+}
+
+.section-team .single-person:hover {
+	background: linear-gradient(to right, #016cec, #00b5f7);
+}
+
+.section-team .single-person .person-image {
+    position: relative;
+    margin-bottom: 50px;
+    border-radius: 50%;
+    border: 4px dashed transparent;
+    transition: padding .3s;
+}
+
+.section-team .single-person:hover .person-image {
+	padding: 12px;
+    border: 4px dashed #fff;
+}
+
+.section-team .single-person .person-image img {
+	width: 100%;
+    border-radius: 50%;
+}
+
+.section-team .single-person .person-image .icon {
+	position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%,50%);
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: linear-gradient(to right, #016cec, #00b5f7);
+    color: #fff;
+    border-radius: 50%;
+    font-size: 24px;
+}
+.logo{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.logo img{
+  width: 10%;
+  border: 3px solid white;
+  border-radius: 50px;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+.section-team .single-person:hover .person-image .icon {
+	background: none;
+	background-color: #fff;
+	color: #016cec;
+}
+
+.section-team .single-person .person-info .full-name {
+	margin-bottom: 10px;
+	font-size: 28px;
+    font-weight: 700;
+}
+
+.section-team .single-person .person-info .speciality {
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #016cec;
+}
+
+.section-team .single-person:hover .full-name,
+.section-team .single-person:hover .speciality {
+	color: #fff;
+}
+ul{
+    width:100%;
+    background-color:red;
+    color: white;
+    height: 50px;
+    padding-top: 20px;
+    box-shadow: 0px 1px 10px black;
+    position: absolute;
+    z-index: 1;
+  
+  }
+  li:hover{
+    background-color: white;
+    color: red;
+  }
+  li{
+    display: inline;
+    list-style-type: none;
+    letter-spacing: 0.3em;
+    padding:33px;
+    cursor: pointer;
+  }
+  #top-call{
+    background-color: red;
+    width: 100%;
+    height: 519px;
+  }
+  #top-call h1{
+    color: white;
+    padding-top: 150px;
+    font-size: 72px;
+    font-weight: lighter;
+    text-align: center;
+  }
+  #top-call h3{
+    color: white;
+    padding-top: 40px;
+    font-weight: lighter;
+    text-align: center;
+  }
+  #top-call a{
+    color: white;
+    background-color: black;
+    font-weight: lighter;
+    text-align:center;
+    padding: 20px 20px;
+    margin-left: 45%;
+    top: 60px;
+    position: relative;
+    text-decoration: none;
+    left: 10px;
+  }
+  #top-call a:hover{
+    color: black;
+    background-color: white;
+  }
+  strong{
+    display: block;
+  }
+  .fa{
+    padding-left: 10px;
+  }
+  
+  #main1{
+    font-size: 20px;
+    padding-left: 90px;
+    padding-right: 90px;
+  }
+  #main1 h2:not(i){
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  strong{
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    color: black;
+  }
+  p{
+    padding-bottom: 50px;
+    color: gray;
+  }
+  #main2{
+    font-size: 20px;
+    padding-left: 90px;
+    padding-right: 90px;
+    background-color: lightgray;
+  }
+  #main2 h2:not(i){
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  #main1 h2 i{
+    font-size: 350px;
+    display: block;
+    float: right;
+    color: red;
+    padding-left: 30px;
+  }
+  #main2 h2 i{
+    font-size: 350px;
+    display: block;
+    float: left;
+    color: red;
+    padding-right: 30px;
+    padding-bottom: 20px;
+  }
+  #bottom{
+    height:200px;
+    background-color: gray;
+  }
+  #bottom p{
+    color: white;
+    font-size: 32px;
+    text-align: center;
+    padding-top: 100px;
+  }
+  .row{
+    align-items: center;
+    justify-content: center;
+  }
+  
